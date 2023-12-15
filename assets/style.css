@@ -1,5 +1,10 @@
-body{
+* {
+    box-sizing: border-box;
+}
+
+body {
     margin: 0;
+    padding: 0;
 }
 
 .header {
@@ -14,20 +19,35 @@ a {
     margin: 50px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
+    color: black;
 }
 
 .section-1{
     text-align: center;
     padding: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section-1 h1 {
+    /* added to increase h1 size */
+    font-size: 2em; 
 }
 
 .contact-info {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: lightgray;
-    padding: 2px;
     border-top: 5px solid darkslategray;
     border-bottom: 5px solid darkslategray;
+    width: 100%;
+}
+
+.contact-inner {
+    max-width: 500px;
+    margin: 25px auto;
+    border: 2px solid darkslategray;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .contact-info input,
@@ -39,5 +59,6 @@ a {
 
 .footer {
     text-align: center;
-    margin: 15px;
+    width: 100%;
+    padding: 15px;
 }
