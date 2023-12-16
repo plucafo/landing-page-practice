@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -16,16 +18,22 @@ body {
 }
 
 a {
-    margin: 50px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
     text-decoration: none;
     color: black;
+    position: relative;
+    transition: box-shadow 2.3 ease-in-out;
+}
+
+a:hover {
+    box-shadow: 0 0 10px 2px darkslategray;
 }
 
 .section-1{
     text-align: center;
     padding: 20px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .section-1 h1 {
@@ -55,6 +63,7 @@ a {
     display: block;
     margin: 10px auto;
     text-align: center;
+    
 }
 
 .footer {
