@@ -39,6 +39,9 @@ a:hover {
 .section-1 h1 {
     /* added to increase h1 size */
     font-size: 2em; 
+    color: darkslategray;
+    text-shadow: 2px 2px gray;
+
 }
 
 .contact-info {
@@ -48,6 +51,8 @@ a:hover {
     border-top: 5px solid darkslategray;
     border-bottom: 5px solid darkslategray;
     width: 100%;
+    color: white;
+    text-shadow: 2px 2px black;
 }
 
 .contact-inner {
@@ -56,6 +61,13 @@ a:hover {
     border: 2px solid darkslategray;
     border-radius: 10px;
     padding: 10px;
+    background-color: #6d695c;
+background-image:
+repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+background-size: 70px 120px;
 }
 
 .contact-info input,
@@ -81,8 +93,11 @@ a:hover {
     padding: 20px;
     background-color: lightgray;
     border: 2px solid #000000;
-    box-shadow: 5px 5px 5px;
+    box-shadow: 5px 5px 5px black;
     z-index: 1000;
+    color: black;
+    text-shadow: 2px 2px lightgray;
+    font-family: 'Poppins', sans-serif;
 }
 
 #modal p {
